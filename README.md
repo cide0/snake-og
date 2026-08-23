@@ -8,6 +8,8 @@ I created this game as a school project with a team of 3 other students in 10th 
 
 It used to also have a `MySQL` database connected to store high scores, but it is currently not available as this database was hosted by my teacher and I haven't set up a new one.
 
+<p align="center"><img src="./textures/body2.png" alt="icon" width="60"/></p>
+
 ## Current Features
 
 - Complete classic **Snake** game functionality:
@@ -19,6 +21,8 @@ It used to also have a `MySQL` database connected to store high scores, but it i
   - Fully custom pixel art textures made by me.
 
 - As explained above, after the game is over, it tries to save the score to a `MySQL` database, but this is currently not available and will fail.
+
+<p align="center"><img src="./textures/body2.png" alt="icon" width="60"/></p>
 
 ## Setup
 
