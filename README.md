@@ -27,3 +27,5 @@ It used to also have a `MySQL` database connected to store high scores, but it i
 2. Clone this repository or download the ZIP file and extract it.
 
 3. Open **only** the `smija` folder in Greenfoot and click on `Run`.
+
+<p align="center"><img src="./textures/tail1.png" alt="icon" width="60"/></p>
