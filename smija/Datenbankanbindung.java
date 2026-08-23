@@ -18,7 +18,7 @@ public class Datenbankanbindung extends Actor
         try
         {
             Class.forName("com.mysql.jdbc.Driver").newInstance(); //Vorarbeit für die Verbindung zur Datenbank
-            verbindung = DriverManager.getConnection("host","pw","user"); //Link, Benutzername und Passwort werden an Verbindung übergeben
+            verbindung = DriverManager.getConnection("host","username","password"); //Link, Benutzername und Passwort werden an Verbindung übergeben
         }
         catch (Exception ex)
         {

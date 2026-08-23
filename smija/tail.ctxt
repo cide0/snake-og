@@ -1,20 +1,14 @@
 #BlueJ class context
 comment0.target=tail
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Abschluss\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ tail\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=headneu
 comment1.target=tail(snakehead)
 comment2.params=
 comment2.target=void\ act()
 comment3.params=
-comment3.target=void\ KopfFolgen()
+comment3.target=void\ K\u00F6rperteilHinzuf\u00FCgen()
 comment4.params=
-comment4.target=void\ K\u00F6rperteilHinzuf\u00FCgen()
-comment5.params=
-comment5.target=void\ SpielzugAuswerten()
-comment6.params=
-comment6.target=void\ BodyKopfFolgen()
-comment7.params=
-comment7.target=void\ BodyBodyFolgen()
-comment8.params=
-comment8.target=void\ TailAufr\u00FCcken()
-numComments=9
+comment4.target=void\ SpielzugAuswerten()
+comment5.params=score\ neuesTeilHinzugefuegt
+comment5.target=void\ KetteFolgen(int,\ boolean)
+numComments=6

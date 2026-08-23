@@ -23,7 +23,6 @@ public class body extends Actor
     
     public void act() 
     { 
-        move(1);
         ApfelNeusetzen();
 
     }

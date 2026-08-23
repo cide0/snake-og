@@ -17,7 +17,7 @@ public class MyWorld extends World
     {    
         super(30, 20, 30);// Breite und Weite der Welt; Größe der Pixel
         snakehead s1 = new snakehead();
-        addObject(s1, 3, 2);// Erstellt Schlangenkopf; xPos: 2; yPos: 2
+        addObject(s1, 3, 2);// Erstellt Schlangenkopf; xPos: 3; yPos: 2
         addObject(new tail(s1), 2, 2);
         addObject(new Score(s1), 2, 0);
         addObject(new Apple(), Greenfoot.getRandomNumber(30), Greenfoot.getRandomNumber(20));// Setzt neuen Apfel auf beliebigen Platz; Begrenzt auf Weltgröße
