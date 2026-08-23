@@ -13,7 +13,7 @@ public class tail extends Actor
     
     // Wir merken uns die Kopf-Position selbst, anstatt uns bei jedem Zug auf head.getX() usw. zu verlassen.
     // Grund: ob head.getX() beim Aufruf schon die neue oder noch die alte Position liefert, hängt davon ab,
-    // ob Greenfoot das act() vom Kopf vor oder nach dem des Tails ausführt - das ist nicht garantiert.
+    // ob Greenfoot das act() vom Kopf vor oder nach dem des Tails ausführt was nicht garantiert ist.
     // Mit einem eigenen Zwischenspeicher ist die Kette immer korrekt um genau einen Zug versetzt, unabhängig von dieser Reihenfolge.
     int letzteKopfX;
     int letzteKopfY;
@@ -40,7 +40,7 @@ public class tail extends Actor
         
         KetteFolgen(scoreVorher, neuesTeilHinzugefuegt);
         
-        // die Kopf-Position für den nächsten Zug merken - erst jetzt, nachdem sie in diesem Zug verwendet wurde
+        // die Kopf-Position für den nächsten Zug merken. erst jetzt, nachdem sie in diesem Zug verwendet wurde
         letzteKopfX = head.getX();
         letzteKopfY = head.getY();
         letzteKopfRotation = head.getRotation();
@@ -137,7 +137,7 @@ public class tail extends Actor
             setRotation(alteRotation[score]);
         }
         // wurde in diesem Zug ein neues Körperteil eingefügt, bleibt der Tail diesen einen Zug lang unverändert stehen:
-        // sein neuer Vorgänger ist gerade erst entstanden und hat noch keine "alte" Position, der der Tail folgen könnte.
+        // sein neuer Vorgänger ist gerade erst entstanden und hat keine alte Position, der der Tail folgen könnte.
         // Ab dem nächsten Zug folgt der Tail dann ganz normal dem neuen Körperteil.
     }
 
