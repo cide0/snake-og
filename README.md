@@ -1,4 +1,4 @@
-
+<p align="center"><img src="./textures/snakehead3.png" alt="icon" width="60"/></p>
 <h1 align="center">Smija</h1>
 <p align="center"><img src="https://img.shields.io/github/v/tag/cide0/snake-og?label=latest%20version&style=flat-square"/></p>
 
